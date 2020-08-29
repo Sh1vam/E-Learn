@@ -1,0 +1,15 @@
+{
+"author": "Shivam Patel",
+"manifest_version": 2,
+"name": "E-Learn",
+"description": "This extension takes you to educational sites .",
+"version": "0.0.0",
+"browser_action": {
+"default_icon": "s2.png",
+"default_popup": "popup.html"
+},
+"permissions": [
+"activeTab",
+"https://ajax.googleapis.com/"
+]
+}
